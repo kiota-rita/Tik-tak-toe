@@ -1,0 +1,33 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: blueviolet;
+}
+
+#jogo{
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    width:603px;
+    height:600px;    
+}
+ 
+.linha{
+    height:200px;
+    border-bottom: 3px solid aliceblue;
+}
+ 
+.casa{
+    width:200px;
+    height:100%;
+    float:left;
+    border-right: 3px solid aliceblue;
+}
+
+#linha3{
+    height:200px;
+    border-bottom: 1px;
+}
+
+
